@@ -52,6 +52,5 @@ public class OpenPageFirefox {
         driver.get("https://www.facebook.com/");
         assertEquals("Facebook - log in or sign up", driver.getTitle());
     }
-
 }
 

@@ -12,6 +12,7 @@ import static org.junit.Assert.assertEquals;
 
 @Execution(ExecutionMode.CONCURRENT)
 public class OpenPageFirefox {
+
     WebDriver driver;
 
     @BeforeEach
@@ -51,5 +52,6 @@ public class OpenPageFirefox {
         driver.get("https://www.facebook.com/");
         assertEquals("Facebook - log in or sign up", driver.getTitle());
     }
+
 }
 

@@ -8,6 +8,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class GridTest {
+
     @Test
     public void testF() throws MalformedURLException, InterruptedException {
         System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver.exe");
